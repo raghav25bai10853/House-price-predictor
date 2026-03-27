@@ -53,4 +53,4 @@ def predict_from_csv(size_sqft):
 new_houses = [1800, 2500, 3200]
 for size in new_houses:
     pred = predict_from_csv(size)
-    print(f"{size}sqft → Rs{pred:.0f}Lakhs")
+    print(f"{size}sqft : Rs{pred:.0f}Lakhs")
